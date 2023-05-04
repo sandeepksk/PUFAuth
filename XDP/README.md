@@ -17,7 +17,7 @@ Follow the [link](https://github.com/xdp-project/xdp-tutorial/blob/master/setup_
 
 To install the code, follow these steps:
 
-1. Clone this repository to your local machine and put anyone of the directory [verifier]() in the root directory of [xdp-tutorial](https://github.com/xdp-project/xdp-tutorial/tree/master).
+1. Clone this repository to your local machine and put anyone of the directory [verifier](https://github.com/networked-systems-iith/PUFAuth/tree/main/XDP/verifi) in the root directory of [xdp-tutorial](https://github.com/xdp-project/xdp-tutorial/tree/master).
 2. Change into the project for eg. xdp-puf directory using `cd xdp-puf`.
 3. Compile the XDP code by running `make`.
 
@@ -49,7 +49,7 @@ To run the code, follow these steps:
 1. Change into the project for eg. xdp-puf directory using `cd xdp-puf`.
 2. Run the command `sudo ./xdp_load_and_stats dev ens802np0--force-progsec xdp_prog`.
 3. If you get error `Kernel error message: nfp: Insufficient number of TX rings w/ XDP enabled`, resolve this by running below commands:
-    ![alt text](images/MicrosoftTeams-image.png.png) 
+    ![alt text](images/MicrosoftTeams-image.png) 
 
 
 ## License
