@@ -17,8 +17,8 @@ Follow the [link](https://github.com/xdp-project/xdp-tutorial/blob/master/setup_
 
 To install the code, follow these steps:
 
-1. Clone this repository to your local machine and the [verifier]() should be in the root directory of [xdp-tutorial].
-2. Change into the project directory using `cd verifier`.
+1. Clone this repository to your local machine and put anyone of the directory [verifier]() in the root directory of [xdp-tutorial](https://github.com/xdp-project/xdp-tutorial/tree/master).
+2. Change into the project for eg. xdp-puf directory using `cd xdp-puf`.
 3. Compile the XDP code by running `make`.
 
 ## Setup XDP on Network Interface
@@ -42,18 +42,15 @@ To set up XDP on a network interface, follow these steps:
 
    The output should include a line that says `xdp` followed by the name of the loaded XDP program.
 
-## Running the Example Code
+## Running the Code
 
-To run the example code, follow these steps:
+To run the code, follow these steps:
 
-1. Start a UDP server on another machine in the network.
-2. Run the following command to capture packets on the network interface:
+1. Change into the project for eg. xdp-puf directory using `cd xdp-puf`.
+2. Run the command `sudo ./xdp_load_and_stats dev ens802np0--force-progsec xdp_prog`.
+3. If you get error `Kernel error message: nfp: Insufficient number of TX rings w/ XDP enabled`, resolve this by running below commands:
+    ![alt text](images/MicrosoftTeams-image.png.png) 
 
-   ```
-   sudo ./xdp_drop
-   ```
-
-3. Send UDP packets to the server from another machine on the network. The packets should be dropped by the XDP program.
 
 ## License
 
