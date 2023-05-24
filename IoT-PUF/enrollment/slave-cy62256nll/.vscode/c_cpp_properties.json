@@ -1,0 +1,64 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/include",
+                "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/src",
+                "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/lib/sram-cy62256nll",
+                "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/lib/bch",
+                "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/lib/tools",
+                "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/.pio/libdeps/megaatmega2560/SD/src",
+                "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/sarat/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/sarat/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/include",
+                    "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/src",
+                    "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/lib/sram-cy62256nll",
+                    "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/lib/bch",
+                    "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/lib/tools",
+                    "/home/sarat/Downloads/PUF Hardware/software-based-PUF-master/modified_code/enrollment/slave-cy62256nll/.pio/libdeps/megaatmega2560/SD/src",
+                    "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/sarat/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/sarat/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/sarat/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60107",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/sarat/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
